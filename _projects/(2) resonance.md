@@ -7,13 +7,19 @@ description: Resonance is an interactive audiovisual installation driven by real
 
 # resonance
 
-The purpose of **resonance** is to place the viewer in direct confrontation with their own emotions. The work emphasizes that the question ["PANIC – yes/no?"](https://ars.electronica.art/mediaservice/en/2025/04/02/ars-electronica-2025-panic-yes-no/), which served as the Ars Electronica theme in the year of its presentation, can only be answered personally.
+The purpose of **resonance** is to place the viewer in direct confrontation with their own emotions. The work emphasizes that the question ["PANIC – yes/no?"](https://ars.electronica.art/mediaservice/en/2025/04/02/ars-electronica-2025-panic-yes-no/), which served as the Ars Electronica theme in the year of its presentation, can only be answered personally. Here is some footage from the installation at Ars Electronica 2025:
+
+<video width="100%" height="100%" controls>
+  <source src="/assets/img/ars.mov" type="video/mp4">
+</video>
 
 ## Data collection
 
 The installation collects biometric data from participants using a Muse 2 EEG headset, a GSR sensor, and facial expression recognition to predict their emotional state. It employs multiple models for emotion recognition, mapping the resulting signals onto the Valence-Arousal-Dominance (VAD) space. The EEG model was trained on the NeuroSense dataset, following the methodology described in this [article](https://ieeexplore.ieee.org/document/10737340/). The GSR model, trained on the [WESAD](https://archive.ics.uci.edu/dataset/465/wesad+wearable+stress+and+affect+detection) dataset, classifies only whether the participant is aroused or not, while the facial expression recognition model categorizes input into six discrete emotions: neutral, sadness, happiness, anger, suprise and fear. A web application was used to monitor the signals and classifications, allowing intervention when sensor malfunctions occurred.
 
-![preview](/assets/img/td.png)
+A monitoring application was developed in Flask to provide real-time feedback on the participant’s state and the reliability of the sensors. The interface displayed EEG, GSR, and facial expression signals together with their classifications on the Valence–Arousal–Dominance (VAD) space. This allowed me to supervise the installation during use, detecting malfunctioning sensors or inconsistent classifications.
+
+![monitor](/assets/img/monitor.png)
 
 ## Translating emotions into sound and visuals
 
@@ -22,6 +28,8 @@ The sound design was created using Max MSP alongside a Node server that exposes 
 ![search](/assets/img/max.png)
 
 The visual component was developed in TouchDesigner, combining generative elements with pre-recorded video. Some visuals were created using mathematical models, such as Voronoi diagrams, while others were based on time-lapse footage enhanced with various visual effects. The visuals are synchronized to the rhythm of the sound, enhancing immersion. A key feature of the visual stream is that participants see their own reflection distorted, eliciting a strong emotional response.
+
+![preview](/assets/img/td.png)
 
 <p class="text-center">
 
