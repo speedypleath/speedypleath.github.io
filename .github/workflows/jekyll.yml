@@ -7,11 +7,9 @@
 name: Deploy Jekyll site to Pages
 
 on:
-  # Runs on pushes targeting the default branch and preview branches
+  # Runs on pushes targeting the default branch
   push:
-    branches: 
-      - "master"
-      - "preview/**"
+    branches: ["master"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -22,9 +20,10 @@ permissions:
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment per branch
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
-  group: "pages-${{ github.ref_name }}"
+  group: "pages"
   cancel-in-progress: false
 
 jobs:
@@ -55,8 +54,6 @@ jobs:
 
   # Deployment job
   deploy:
-    # Only deploy to GitHub Pages from master branch
-    if: github.ref == 'refs/heads/master'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -66,31 +63,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-  
-  # Preview deployment job (for preview branches)
-  preview:
-    # Only run for preview branches
-    if: startsWith(github.ref, 'refs/heads/preview/')
-    environment:
-      name: preview-${{ github.ref_name }}
-      url: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/preview/${{ github.ref_name }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Download artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: github-pages
-      
-      - name: Extract artifact
-        run: |
-          mkdir -p preview-site
-          tar -xf artifact.tar -C preview-site
-      
-      - name: Deploy preview to GitHub Pages subdirectory
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./preview-site
-          destination_dir: preview/${{ github.ref_name }}
-          keep_files: true
