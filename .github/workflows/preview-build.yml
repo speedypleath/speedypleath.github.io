@@ -28,7 +28,7 @@ jobs:
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
         with:
-          name: preview-site-${{ github.ref_name }}
+          name: preview-site-${{ github.run_number }}
           path: _site/
           retention-days: 7
       
@@ -41,7 +41,7 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "### 📦 Download Preview" >> $GITHUB_STEP_SUMMARY
           echo "Download the built site artifact from the Actions run to preview locally:" >> $GITHUB_STEP_SUMMARY
-          echo "1. Download the \`preview-site-${{ github.ref_name }}\` artifact" >> $GITHUB_STEP_SUMMARY
+          echo "1. Download the \`preview-site-${{ github.run_number }}\` artifact" >> $GITHUB_STEP_SUMMARY
           echo "2. Extract and serve with: \`python3 -m http.server 4000\`" >> $GITHUB_STEP_SUMMARY
           echo "3. Visit: http://localhost:4000" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
