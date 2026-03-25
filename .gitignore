@@ -11,3 +11,6 @@ Gemfile.lock
 # Log Files
 *.log
 **/.DS_Store
+
+# OpenClaw workspace files
+.openclaw/
