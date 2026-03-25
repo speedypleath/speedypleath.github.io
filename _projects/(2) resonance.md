@@ -1,6 +1,6 @@
 ---
 name: resonance
-tools: [Python, Max MSP, TouchDesigner, Node.js]
+tools: [Python, Max MSP, TouchDesigner, Node.js, Machine Learning, EEG, Biometric Sensors, Computer Vision, Generative Art, Interactive Installation]
 image: /assets/img/td.png
 description: Resonance is an interactive audiovisual installation driven by real-time emotion detection and biometric feedback. It generates an audio-visual output in response to participants' emotional states.
 ---

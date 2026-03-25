@@ -1,6 +1,6 @@
 ---
 name: pytranspleet
-tools: [Python, JavaScript, TypeScript, HTML, CSS]
+tools: [Python, JavaScript, TypeScript, HTML, CSS, Demucs, Audio Processing, Stem Separation, Music Transcription, Poetry, Web Development]
 image:
 description: Audio application for splitting stems and transcribing notes from audio files
 ---

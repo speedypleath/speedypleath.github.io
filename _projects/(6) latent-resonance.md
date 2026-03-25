@@ -1,6 +1,6 @@
 ---
 name: latent-resonance
-tools: [Python, StyleGAN2, MediaPipe, Librosa, PyTorch]
+tools: [Python, StyleGAN2, GAN, MediaPipe, Librosa, PyTorch, Computer Vision, Machine Learning, Audio Synthesis, Generative Art, Deep Learning]
 image: /assets/img/latent-resonance/fakes36_kaggle.png
 description: A computational instrument that transmutes facial micro-movements into generated audio spectrograms using machine learning and computer vision.
 ---
