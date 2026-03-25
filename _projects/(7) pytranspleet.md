@@ -1,7 +1,7 @@
 ---
 name: pytranspleet
 tools: [Python, JavaScript, TypeScript, HTML, CSS]
-image: /assets/img/pytranspleet/logo.png
+image:
 description: Audio application for splitting stems and transcribing notes from audio files
 ---
 
