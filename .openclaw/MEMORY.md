@@ -100,6 +100,15 @@ _Will record preferences and feedback here as received_
 - Move to next project
 - Better for review and iterative feedback
 
+### Local Preview & Testing (Added 2026-03-25)
+- **ALWAYS create preview branch before merging to master**
+- **Use `act` for local GitHub Actions testing**: https://github.com/nektos/act
+- Install: `brew install act`
+- Run workflows locally: `act -j build` (or specific job name)
+- Preview builds locally before pushing to avoid deployment issues
+- Test UI/layout changes before going live
+- Owner feedback: Should have tested locally before direct-to-master push
+
 ## TODO
 
 - [x] Initial scan of GitHub repos to identify missing projects (completed 2026-03-24)
