@@ -1,0 +1,23 @@
+- name: React / Redux
+  percentage: 95
+  color: primary
+
+- name: Node.js / NestJS
+  percentage: 90
+  color: success
+
+- name: TypeScript
+  percentage: 85
+  color: info
+
+- name: Python / FastAPI
+  percentage: 85
+  color: warning
+
+- name: D3.js / Data Viz
+  percentage: 75
+  color: danger
+
+- name: Flutter / Dart
+  percentage: 70
+  color: secondary

@@ -1,0 +1,23 @@
+- name: AWS Lambda / Serverless
+  percentage: 85
+  color: warning
+
+- name: Docker / Kubernetes
+  percentage: 80
+  color: primary
+
+- name: NATS / Argo Workflows
+  percentage: 75
+  color: info
+
+- name: PostgreSQL / MongoDB
+  percentage: 80
+  color: success
+
+- name: Google Cloud Platform
+  percentage: 65
+  color: secondary
+
+- name: InfluxDB / Grafana
+  percentage: 70
+  color: danger

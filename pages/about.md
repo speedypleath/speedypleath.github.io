@@ -46,31 +46,20 @@ Beyond creative work, I maintain strong fundamentals in modern web development:
 - **DevOps**: AWS (Lambda, S3, API Gateway), Docker, Kubernetes, Google Cloud Platform
 - **Testing**: Playwright for E2E, Jest for unit tests, ensuring robust and maintainable code
 
-## Tools & Technologies
-
-**Languages**: JavaScript, TypeScript, Python, C++, Dart, Scala
-
-**Frontend**: React, Redux, D3.js, Flutter, HTML5, CSS3
-
-**Backend**: Node.js, NestJS, FastAPI, Express
-
-**Audio/Music**: JUCE, Max MSP, TouchDesigner, Librosa, Demucs, Whisper
-
-**ML/CV**: PyTorch, StyleGAN2, MediaPipe, OpenCV, GANs
-
-**Infrastructure**: AWS (Lambda, S3, API Gateway), Docker, Kubernetes, NATS, Argo
-
-**Databases**: PostgreSQL, MongoDB, MariaDB, InfluxDB
-
-**Testing**: Playwright, Jest
-
 ---
 
 Outside of work, I am passionate about **generative art**, **biometric feedback systems**, and **interactive media** — which you can see reflected in many of my personal projects.
 
+## Skills Breakdown
+
 <div class="row">
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
+{% include about/skills.html title="Web Development" source=site.data.web-dev-skills %}
+{% include about/skills.html title="Infrastructure & DevOps" source=site.data.infrastructure-skills %}
+</div>
+
+<div class="row">
+{% include about/skills.html title="Audio & Music Technology" source=site.data.audio-music-skills %}
+{% include about/skills.html title="Creative Technology" source=site.data.creative-tech-skills %}
 </div>
 
 <div class="row">

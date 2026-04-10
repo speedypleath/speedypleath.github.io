@@ -1,0 +1,23 @@
+- name: Demucs / Audio Processing
+  percentage: 85
+  color: success
+
+- name: JUCE / C++ Audio Plugins
+  percentage: 80
+  color: info
+
+- name: Max MSP / TouchDesigner
+  percentage: 75
+  color: warning
+
+- name: Whisper / Speech Recognition
+  percentage: 75
+  color: success
+
+- name: Librosa / Audio Analysis
+  percentage: 70
+  color: secondary
+
+- name: MIDI / OSC Protocols
+  percentage: 70
+  color: danger
