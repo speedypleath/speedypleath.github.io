@@ -1,0 +1,19 @@
+- name: MediaPipe/OpenCV
+  percentage: 85
+  color: success
+
+- name: TouchDesigner/Max MSP
+  percentage: 80
+  color: info
+
+- name: StyleGAN2
+  percentage: 75
+  color: danger
+
+- name: Arduino/ESP8266
+  percentage: 85
+  color: warning
+
+- name: EEG/GSR Biometric
+  percentage: 70
+  color: primary

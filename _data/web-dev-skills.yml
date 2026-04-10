@@ -1,0 +1,19 @@
+- name: React/TypeScript
+  percentage: 95
+  color: primary
+
+- name: Node.js/NestJS
+  percentage: 90
+  color: success
+
+- name: D3.js Data Viz
+  percentage: 85
+  color: info
+
+- name: Python/FastAPI
+  percentage: 85
+  color: secondary
+
+- name: PostgreSQL/MongoDB
+  percentage: 80
+  color: warning

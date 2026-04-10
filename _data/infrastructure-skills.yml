@@ -6,18 +6,14 @@
   percentage: 85
   color: info
 
-- name: WCAG Accessibility
-  percentage: 90
-  color: success
-
-- name: Playwright/Jest
-  percentage: 85
-  color: primary
-
 - name: CI/CD (Argo, GitHub Actions)
   percentage: 80
-  color: secondary
+  color: success
 
-- name: Data Visualization (D3)
+- name: NATS/RabbitMQ
   percentage: 75
-  color: danger
+  color: primary
+
+- name: Grafana/InfluxDB
+  percentage: 70
+  color: secondary

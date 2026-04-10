@@ -1,0 +1,19 @@
+- name: Audio Processing (Demucs)
+  percentage: 85
+  color: danger
+
+- name: VST Plugins (C++/JUCE)
+  percentage: 80
+  color: info
+
+- name: Whisper/AssemblyAI
+  percentage: 85
+  color: success
+
+- name: MIDI/OSC Protocols
+  percentage: 90
+  color: warning
+
+- name: Music Transcription
+  percentage: 75
+  color: primary

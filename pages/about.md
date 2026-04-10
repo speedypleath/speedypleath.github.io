@@ -5,16 +5,23 @@ permalink: /about/
 weight: 3
 ---
 
-# **About Me**
+# About
 
-Hi I am **{{ site.author.name }}** :wave:,<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+I'm a full-stack developer and creative technologist based in Bucharest, working at the intersection of software engineering, music technology, and interactive art.
 
-<div class="row">
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
-</div>
+## Background
 
-<div class="row">
-{% include about/timeline.html %}
-</div>
+Currently pursuing an MA in Interactive Technologies for Performing and Media Arts at UNATC Bucharest, building on a BSc in Mathematics and Informatics from University of Bucharest.
+
+## Work
+
+- **Thales** (2025–present): Software Developer — Cloud-native satellite systems
+- **Verified** (2024–2025): Full-stack Developer — WCAG accessibility, AWS serverless
+- **Reevotech** (2022–2024): Full-stack Developer — Legacy modernization
+- **CoreAI** (2021–2022): Full-stack Developer — Data visualization
+
+## Interests
+
+Audio processing, VST plugins, computer vision, biometric feedback systems, generative art, and interactive installations.
+
+[View my projects](/projects/) · [Contact](mailto:gheorgheandrei13@gmail.com)

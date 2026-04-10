@@ -1,17 +1,19 @@
-- title: Student, Harvard CS
-  from: 2014
-  to: 2018
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- title: Software Developer, Thales
+  from: 2025
+  to: Present
+  description: Developing Processing Modules for EGNOS Test Bed. Implemented data integration with advanced field mapping, designed test PMs for ESA demonstrations, and led scenario manager updates for recursive workflows. Cloud-native environment with NATS, Argo, Kubernetes, PostgreSQL, and Grafana.
 
-- title: Software Engineer, Google, UK
-  from: 2018
-  to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- title: Full-Stack Developer, Verified
+  from: 2024
+  to: 2025
+  description: Implemented WCAG-compliant accessibility features including semantic markup and screen-reader support. Built serverless AWS Lambda microservice for accessible PDF generation. Migrated legacy Node.js packages and maintained AWS Slack bots for workflow automation.
+
+- title: Full-Stack Developer, Reevotech
+  from: 2022
+  to: 2024
+  description: Migrated legacy v8 web application to modern NestJS + React stack. Resolved bug fixes and performance issues. Developed comprehensive E2E tests with Playwright and unit tests with Jest for robust code quality.
+
+- title: Full-Stack Developer, CoreAI
+  from: 2021
+  to: 2022
+  description: Developed web application for large dataset analysis using React, D3, FastAPI, and MongoDB. Created interactive data visualizations with D3.js and optimized performance with React/Redux conditional rendering.
