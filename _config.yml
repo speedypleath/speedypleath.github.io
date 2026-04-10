@@ -99,3 +99,14 @@ exclude:
   - LICENSE
   - "*.log"
   - vendor
+  - "*.docx"
+  - "*.json"
+  - "*.sh"
+  - Gemfile
+  - Gemfile.lock
+  - Gemfile.backup
+  - chromedriver-local
+  - .openclaw/
+  - .bundle/
+  - .jekyll-cache/
+  - .rbenv/
