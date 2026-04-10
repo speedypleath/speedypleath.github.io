@@ -1,25 +1,19 @@
-- title: Full-Stack Developer, CoreAI
-  from: 2021
-  to: 2022
-  description: Contributed to a web application for analyzing large datasets using React, D3.js, FastAPI, RabbitMQ, Celery, MariaDB, and MongoDB.
-               Built interactive data visualizations with D3.js and implemented conditional rendering with React and Redux to improve UX and performance.
-
-- title: Full-Stack Developer, Reevotech
-  from: 2022
-  to: 2024
-  description: Led migration of a legacy v8 web application to a modern NestJS and React stack.
-               Resolved ongoing tickets for the legacy system and developed comprehensive E2E tests with Playwright and unit tests with Jest to ensure code reliability.
+- title: Software Developer, Thales
+  from: 2025
+  to: Present
+  description: Developing Processing Modules for EGNOS Test Bed. Implemented data integration with advanced field mapping, designed test PMs for ESA demonstrations, and led scenario manager updates for recursive workflows. Cloud-native environment with NATS, Argo, Kubernetes, PostgreSQL, and Grafana.
 
 - title: Full-Stack Developer, Verified
   from: 2024
   to: 2025
-  description: Designed and implemented WCAG-compliant accessibility features including semantic markup, keyboard navigation, and screen-reader support.
-               Built a serverless AWS Lambda microservice for generating accessible PDFs (weasyprint), integrated with S3 and API Gateway.
-               Maintained and extended Slack bots on AWS automating internal notifications and workflow reminders.
+  description: Implemented WCAG-compliant accessibility features including semantic markup and screen-reader support. Built serverless AWS Lambda microservice for accessible PDF generation. Migrated legacy Node.js packages and maintained AWS Slack bots for workflow automation.
 
-- title: Software Developer, Thales
-  from: 2025
-  to: present
-  description: Developing Processing Modules for the EGNOS Test Bed, including a Merge PM enabling multi-source data integration with field mapping and priority sorting.
-               Led a major scenario manager refactor to support recursive workflows via SCC identification and DAG separation.
-               Working in a cloud-native environment with NATS, Argo, Kubernetes, InfluxDB, PostgreSQL, MinIO, Keycloak, and Grafana.
+- title: Full-Stack Developer, Reevotech
+  from: 2022
+  to: 2024
+  description: Migrated legacy v8 web application to modern NestJS + React stack. Resolved bug fixes and performance issues. Developed comprehensive E2E tests with Playwright and unit tests with Jest for robust code quality.
+
+- title: Full-Stack Developer, CoreAI
+  from: 2021
+  to: 2022
+  description: Developed web application for large dataset analysis using React, D3, FastAPI, and MongoDB. Created interactive data visualizations with D3.js and optimized performance with React/Redux conditional rendering.

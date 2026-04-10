@@ -1,15 +1,23 @@
-- name: Playwright / Jest
-  percentage: 85
-  color: success
+- name: AWS Serverless
+  percentage: 90
+  color: warning
 
-- name: Accessibility (WCAG)
+- name: Kubernetes/Docker
   percentage: 85
   color: info
 
-- name: Kubernetes / Argo
-  percentage: 70
-  color: warning
+- name: WCAG Accessibility
+  percentage: 90
+  color: success
 
-- name: RabbitMQ / NATS
-  percentage: 65
+- name: Playwright/Jest
+  percentage: 85
+  color: primary
+
+- name: CI/CD (Argo, GitHub Actions)
+  percentage: 80
   color: secondary
+
+- name: Data Visualization (D3)
+  percentage: 75
+  color: danger

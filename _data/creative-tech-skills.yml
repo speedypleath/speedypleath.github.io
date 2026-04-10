@@ -1,23 +1,19 @@
-- name: MediaPipe / OpenCV
+- name: MediaPipe/OpenCV
   percentage: 85
-  color: primary
-
-- name: PyTorch / StyleGAN2
-  percentage: 80
   color: success
 
-- name: GANs / Deep Learning
-  percentage: 75
+- name: TouchDesigner/Max MSP
+  percentage: 80
   color: info
 
-- name: Arduino / ESP8266
-  percentage: 70
-  color: warning
-
-- name: EEG / Biometric Sensors
-  percentage: 65
+- name: StyleGAN2
+  percentage: 75
   color: danger
 
-- name: Generative Art Systems
-  percentage: 75
-  color: secondary
+- name: Arduino/ESP8266
+  percentage: 85
+  color: warning
+
+- name: EEG/GSR Biometric
+  percentage: 70
+  color: primary
