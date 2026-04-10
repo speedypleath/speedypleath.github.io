@@ -1,7 +1,15 @@
-- name: Adobe Photoshop
-  percentage: 95
+- name: Playwright / Jest
+  percentage: 85
+  color: success
+
+- name: Accessibility (WCAG)
+  percentage: 85
   color: info
 
-- name: Adobe Illustrator
-  percentage: 90
-  color: success
+- name: Kubernetes / Argo
+  percentage: 70
+  color: warning
+
+- name: RabbitMQ / NATS
+  percentage: 65
+  color: secondary

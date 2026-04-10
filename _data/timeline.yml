@@ -1,17 +1,25 @@
-- title: Student, Harvard CS
-  from: 2014
-  to: 2018
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- title: Full-Stack Developer, CoreAI
+  from: 2021
+  to: 2022
+  description: Contributed to a web application for analyzing large datasets using React, D3.js, FastAPI, RabbitMQ, Celery, MariaDB, and MongoDB.
+               Built interactive data visualizations with D3.js and implemented conditional rendering with React and Redux to improve UX and performance.
 
-- title: Software Engineer, Google, UK
-  from: 2018
+- title: Full-Stack Developer, Reevotech
+  from: 2022
+  to: 2024
+  description: Led migration of a legacy v8 web application to a modern NestJS and React stack.
+               Resolved ongoing tickets for the legacy system and developed comprehensive E2E tests with Playwright and unit tests with Jest to ensure code reliability.
+
+- title: Full-Stack Developer, Verified
+  from: 2024
+  to: 2025
+  description: Designed and implemented WCAG-compliant accessibility features including semantic markup, keyboard navigation, and screen-reader support.
+               Built a serverless AWS Lambda microservice for generating accessible PDFs (weasyprint), integrated with S3 and API Gateway.
+               Maintained and extended Slack bots on AWS automating internal notifications and workflow reminders.
+
+- title: Software Developer, Thales
+  from: 2025
   to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: Developing Processing Modules for the EGNOS Test Bed, including a Merge PM enabling multi-source data integration with field mapping and priority sorting.
+               Led a major scenario manager refactor to support recursive workflows via SCC identification and DAG separation.
+               Working in a cloud-native environment with NATS, Argo, Kubernetes, InfluxDB, PostgreSQL, MinIO, Keycloak, and Grafana.

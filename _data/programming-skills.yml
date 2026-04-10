@@ -1,11 +1,47 @@
-- name: HTML5/CSS3
-  percentage: 90
-  color: danger
+- name: React
+  percentage: 95
+  color: primary
 
-- name: Go
-  percentage: 80
-  color:
+- name: Node.js
+  percentage: 90
+  color: success
+
+- name: NestJS
+  percentage: 85
+  color: info
+
+- name: TypeScript
+  percentage: 85
+  color: primary
+
+- name: AWS Serverless
+  percentage: 85
+  color: warning
 
 - name: Python
+  percentage: 80
+  color: secondary
+
+- name: Docker
+  percentage: 80
+  color: info
+
+- name: PostgreSQL/MongoDB
+  percentage: 75
+  color: success
+
+- name: D3.js
+  percentage: 75
+  color: danger
+
+- name: C++
   percentage: 70
   color: secondary
+
+- name: Google Cloud
+  percentage: 65
+  color: warning
+
+- name: Scala
+  percentage: 60
+  color: danger
