@@ -5,12 +5,26 @@ _site/
 .jekyll-metadata
 
 # Ruby Gems
-.bundle
-Gemfile.lock
+.bundle/
+vendor/
+Gemfile.backup
 
 # Log Files
 *.log
+
+# OS
 **/.DS_Store
+
+# Local scripts & binaries
+browser.sh
+chromedriver-local
+
+# Data / generated files
+cv_embeddings.json
+
+# Documents (keep out of repo)
+*.docx
 
 # OpenClaw workspace files
 .openclaw/
+install/

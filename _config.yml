@@ -1,18 +1,22 @@
 ### Site Settings ###
 title               : Andrei Gheorghe
 description         : >-
-                      MA Student in Interactive Technologies for Performing and Media Arts
-                      Supervisor: Grigore Burloiu
-                      MA Student in Interactive Technologies for Performing and Media Arts at CINETic, UNATC Bucharest
+                      MA Student in Interactive Technologies for Performing and Media Arts <br> <br>
+                      <a href="https://cinetic.arts.ro/" target="_blank">CINETic</a>, UNATC Bucharest<br>
+                      Supervisor: <a href="https://rvirmoors.github.io/work" target="_blank">Grigore Burloiu</a><br><br>
+                      BEng. Computer Science at <a href="https://fmi.unibuc.ro/" target="_blank">University of Bucharest</a><br><br>
+                      Abstract Algebra. Audio Technology. Raves and DIY fests.<br><br><br><br>
+                      This website is being constructed slowly <s> because the owner is somewhat busy</s>.
 baseurl             : ""            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : speedypleath/speedypleath.github.io      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : yousinix/portfolYOU
 open_new_tab        : True                    # Opens external URLs in new tab (works for posts, projects and navbar only)
-
+landing_vertical    : False    
 
 ### Plugins ###
 plugins:
   - jemoji
+  - jekyll-include-cache
 
 ### Navbar Settings ###
 nav_exclude:                                            # The following paths are excluded from navbar
@@ -24,7 +28,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Andrei Gheorghe
-# image             : https://i.imgur.com/uyDNQnn.jpg
+  image             : /assets/img/tinkering.jpg
 # behance           : your_username
 # dribbble          : your_username
   email             : gheorgheandrei13@gmail.com
@@ -63,20 +67,9 @@ disqus:
 
 ### Analytics ###
 analytics:
-  enabled: false                                        # Set true to enable analytics
+  enabled: false                                        # temporarily disabled
   google:
     tracking_id: your-google-tracking-id
-
-
-### Buy me a coffee ###
-# See https://www.buymeacoffee.com/
-buymeacoffee:
-  enabled: false
-  username: your_username
-  color: "#007bff"
-  message: "Thank you for visiting."                    # Message to be displayed aside from the button for a few seconds.
-  description: "Support me on Buy me a coffee!"
-
 
 ### Defaults for collections ###
 defaults:
@@ -100,7 +93,7 @@ exclude:
   - "*.log"
   - vendor
   - "*.docx"
-  - "*.json"
+  - cv_embeddings.json
   - "*.sh"
   - Gemfile
   - Gemfile.lock
@@ -110,3 +103,4 @@ exclude:
   - .bundle/
   - .jekyll-cache/
   - .rbenv/
+  - install/
