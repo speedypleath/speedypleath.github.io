@@ -10,7 +10,7 @@ description: How a conversation about McLuhan unlocked the theoretical framework
 
 ---
 
-There is a particular kind of epiphany that comes when someone hands you a lens and suddenly everything you have been staring at for months snaps into focus. For me, that moment came through a conversation with Ion Dumitrescu — and the lens was Marshall McLuhan.
+There is a particular kind of epiphany that comes when someone hands you a lens and suddenly everything you have been staring at for months snaps into focus. For me, that moment came through a conversation with Ion Dumitrescu, and the lens was Marshall McLuhan.
 
 ---
 
