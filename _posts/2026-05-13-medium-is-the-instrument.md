@@ -35,11 +35,11 @@ I wasn't planning on talking to Horatiu and Ion that evening; I just came to the
 
 At some point, Ion also came to the studio, while I didn't even get a chance to talk to him about my interview plans beforehand. I also showed him my designs and explained my ideas. He was really engaged with the concept; we were talking about physicality in instruments and pushback, and he reflected on McLuhan's perspective on tactility in interfaces.
 
-McLuhan described something he called the **audile-tactile** — the mode of perception native to oral cultures, where tactility is not mere touch but an **interplay of all the senses**. The body as a whole resonates with its environment. Hearing is something you feel as much as process. This was not nostalgia. It was a claim about what the nervous system is capable of when it is not trained out of it.
+McLuhan described something he called the **audile-tactile**: the mode of perception native to oral cultures, where tactility is not mere touch but an **interplay of all the senses**. The body as a whole resonates with its environment. Hearing is something you feel as much as process. This was not nostalgia. It was a claim about what the nervous system is capable of when it is not trained out of it.
 
-And then there was the concept of **cool media**: low-definition, high-participation. The low-resolution television image, McLuhan argued, demands that the viewer actively complete it — **sensory closure**, he called it. The gap in definition is precisely what draws the body in. Engagement is not incidental; it is structural.
+And then there was the concept of **cool media**: low-definition, high-participation. The low-resolution television image, McLuhan argued, demands that the viewer actively complete it; **sensory closure**, he called it. The gap in definition is precisely what draws the body in. Engagement is not incidental; it is structural.
 
-I remember the moment those two ideas landed together. I was building an instrument designed to resist, to be deliberately under-specified, to give back less than you put in, and McLuhan had already named the logic behind it. The performer leans into the instrument **because the instrument doesn't resolve on its own**. The decay is non-linear, the momentum non-deterministic, and the tension non-quantised. You have to complete it. The body is the other half of the signal chain.
+I remember the moment those two ideas merged. I was building an instrument designed to resist, to be deliberately under-specified, to give back less than you put in, and McLuhan had already named the logic behind it. The performer leans into the instrument **because the instrument doesn't resolve on its own**. The decay is non-linear, the momentum non-deterministic, and the tension non-quantised. You have to complete it. The body is the other half of the signal chain.
 
 ---
 
