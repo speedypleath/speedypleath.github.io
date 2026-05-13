@@ -1,7 +1,7 @@
 ---
 name: latent-resonance
 tools: [Python, StyleGAN2, GAN, MediaPipe, Librosa, PyTorch, Computer Vision, Machine Learning, Audio Synthesis, Generative Art, Deep Learning]
-image: /assets/img/latent-resonance/fakes36_kaggle.png
+image: /assets/img/latent-resonance/fakes36_kaggle.jpg
 description: A computational instrument that transmutes facial micro-movements into generated audio spectrograms using machine learning and computer vision.
 ---
 
@@ -30,7 +30,7 @@ The pipeline consists of four distinct stages:
 
 The model was trained on a custom-curated dataset of almost 500 spectrograms generated from audio samples sourced via [freesound.org](https://freesound.org) (dark drone, sustained tones, reese bass, and similar structured harmonic material).
 
-![Dataset - Real Spectrograms](/assets/img/latent-resonance/reals_kaggle.png){:class="img-fluid rounded"}
+![Dataset - Real Spectrograms](/assets/img/latent-resonance/reals_kaggle.jpg){:class="img-fluid rounded"}
 
 ### Training Process
 
@@ -46,31 +46,31 @@ The curated spectrogram dataset was used to train a StyleGAN model using transfe
 
 You will see terrifying, melted faces. Some might have "bassline textures" instead of skin, but you will clearly see eyes or mouths. Audio quality is unusable—static with weird voice-like formants.
 
-![Phase 1](/assets/img/latent-resonance/fakes0_kaggle.png){:class="img-fluid rounded"}
+![Phase 1](/assets/img/latent-resonance/fakes0_kaggle.jpg){:class="img-fluid rounded"}
 
 ##### Phase 2: The "Structure" Phase (50–200 kimg)
 
 The faces fade away. You start seeing horizontal lines (which are bass notes). Audio becomes "Lo-Fi"—recognizable as a drone or bass, but watery or phasey.
 
-![Phase 2](/assets/img/latent-resonance/fakes12_kaggle.png){:class="img-fluid rounded"}
+![Phase 2](/assets/img/latent-resonance/fakes12_kaggle.jpg){:class="img-fluid rounded"}
 
 ##### Phase 3: The "Usable" Phase (200–400 kimg)
 
 The lines become sharp and high-contrast. The background becomes solid black. Audio quality is good—sharp lines produce pure sine waves, blurry lines produce noise.
 
-![Phase 3](/assets/img/latent-resonance/fakes36_kaggle.png){:class="img-fluid rounded"}
+![Phase 3](/assets/img/latent-resonance/fakes36_kaggle.jpg){:class="img-fluid rounded"}
 
 ### Training using Autolume
 
 Generated RGB dataset using magma colormap to allow transfer learning from pre-trained weights.
 
-![Dataset - Autolume](/assets/img/latent-resonance/reals_autolume.png){:class="img-fluid rounded"}
+![Dataset - Autolume](/assets/img/latent-resonance/reals_autolume.jpg){:class="img-fluid rounded"}
 
 Training progression through three phases:
 
 | Phase 1: FFHQ Data | Phase 2: Distorted | Phase 3: Clear |
 |:---:|:---:|:---:|
-| ![Phase 1](/assets/img/latent-resonance/fakes0_autolume.png) | ![Phase 2](/assets/img/latent-resonance/fakes8_autolume.png) | ![Phase 3](/assets/img/latent-resonance/fakes16_autolume.png) |
+| ![Phase 1](/assets/img/latent-resonance/fakes0_autolume.jpg) | ![Phase 2](/assets/img/latent-resonance/fakes8_autolume.jpg) | ![Phase 3](/assets/img/latent-resonance/fakes16_autolume.jpg) |
 
 ## Controls & Interaction
 
