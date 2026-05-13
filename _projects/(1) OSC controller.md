@@ -26,6 +26,8 @@ An I2C LCD displays live sensor values, and Wi-Fi credentials are stored in a JS
 - **16×2 I2C LCD** — live readout of active sensor values
 - Analog sensors wired to multiplexer channels (potentiometers, FSRs, etc.)
 
+## Schematic
+
 ![schematic](/assets/img/osc_schematic.png)
 
 ## Architecture
