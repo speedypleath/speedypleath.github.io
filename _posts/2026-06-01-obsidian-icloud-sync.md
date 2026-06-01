@@ -6,9 +6,8 @@ tags:
   - macos
   - productivity
   - tools
+description: "Setup automatic sync on iCloud for an obsidian vault using rsync and launchd"
 ---
-
-# Sync Obsidian to iCloud on macOS, Automatically
 
 I wanted my Obsidian vault available on all my Apple devices without paying for Obsidian Sync and without reaching for third-party tools. macOS already has everything needed: `rsync` for mirroring files and `launchd` for watching directories and firing jobs in the background. No polling, no cron, no daemons.
 
