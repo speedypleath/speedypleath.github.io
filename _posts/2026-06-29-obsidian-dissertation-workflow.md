@@ -9,8 +9,6 @@ tags:
   - research
 ---
 
-# How I Write My Dissertation in Obsidian (Without Losing My Mind)
-
 Word plus Zotero is where most students start, and it works, until it doesn't. The moment your bibliography hits 150 sources, your argument spans five chapters, and you need to cross-reference figures three sections back, the cracks show: citations feel bolted on (because they are), there's no connection between your reading notes and your writing, and every export is a negotiation with an uncooperative `.docx` or loosing my mind trying to use raw LaTeX. The alternative is treating Obsidian as the actual writing environment, not just a note-taking app parked next to Word, but the place where literature notes, drafts, citations, and final output all live together.
 
 Here's the full pipeline.
