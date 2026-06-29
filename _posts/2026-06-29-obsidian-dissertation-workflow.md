@@ -158,11 +158,3 @@ pandoc input.md \
 `--natbib` produces proper `\cite{}` commands; `--extract-media` copies images out of your vault into a separate folder.
 
 > **Gotcha:** Test the full export pipeline on a small sample file before you run it on your 80,000-word thesis. One broken image path or malformed cite key will abort the whole thing. A three-paragraph test document that exercises citations, a figure, and a cross-reference takes two minutes and saves hours.
-
----
-
-## Why this holds together
-
-No individual tool here is magic. What makes the setup work is that reading, thinking, and writing happen in the same environment. Your literature note for a paper is two clicks from the paragraph where you cite it. When you change your argument, you update the note and the citation together. When you're done writing, the export is a single command.
-
-Word is fine for a 3,000-word essay. For a thesis, you need something that scales with the argument.
