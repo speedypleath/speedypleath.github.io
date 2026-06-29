@@ -1,6 +1,7 @@
 ---
 title: "How I Write My Dissertation in Obsidian (Without Losing My Mind)"
 date: 2026-06-29
+description: "A full end-to-end workflow for writing your dissertation in Obsidian: importing sources into Zotero and building literature notes, inserting inline citations while writing, and exporting a clean PDF with Pandoc."
 tags:
   - obsidian
   - academic-writing
