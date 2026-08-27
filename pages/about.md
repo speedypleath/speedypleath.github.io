@@ -7,60 +7,45 @@ weight: 2
 
 # **About Me**
 
-Hi, I am **{{ site.author.name }}** :wave:,<br>
-a Full-stack web developer and creative technologist with 4 years of professional experience building robust, user-centered applications and interactive experiences.
+Hi, I am **{{ site.author.name }}**,<br>
+a Machine Learning & Audio Developer, Creative Technologist, and Full-Stack Engineer with 5 years of professional software engineering experience building robust systems, interactive audio tools, and embedded hardware.
 
 ## Professional Background
 
-My professional stack revolves around **React**, **Node.js**, **NestJS**, and **serverless AWS architectures**, with a strong focus on accessibility, testing, and clean system design. I've worked across diverse industries:
+My professional engineering foundation spans cloud-native architectures, distributed backend services, serverless microservices, and modern web applications with a strong focus on system reliability, test automation, and clean design:
 
-- **Thales (2025–present)**: Cloud-native satellite systems (EGNOS Test Bed) using Kubernetes, NATS, Argo, PostgreSQL, and Grafana
-- **Verified (2024–2025)**: WCAG-compliant accessibility features and AWS Lambda serverless microservices
-- **Reevotech (2022–2024)**: Legacy modernization (v8 → NestJS/React) with comprehensive Playwright and Jest testing
-- **CoreAI (2021–2022)**: Large-scale data visualization with React, D3.js, FastAPI, and real-time processing pipelines
+- **Thales (2025–present)**: Cloud-native satellite processing modules for the EGNOS Test Bed using Kubernetes, NATS, Argo, PostgreSQL, InfluxDB, Keycloak, and Grafana
+- **Verified (2024–2025)**: Serverless AWS Lambda microservices, WCAG-compliant accessibility architecture, and automated workflow tooling
+- **Reevotech (2022–2024)**: Legacy modernization to NestJS, React, and TypeScript with end-to-end Playwright and Jest test suites
+- **CoreAI (2021–2022)**: High-throughput data processing and interactive visualization pipelines with React, D3.js, FastAPI, RabbitMQ, and Celery
 
-## Music & Audio Technology :musical_note:
+## Audio Programming & Machine Learning
 
-A significant part of my work explores the intersection of music, technology, and creative expression:
+A core focus of my work is building intelligent tools and computational instruments that bridge signal processing, machine learning, and creative software:
 
-- **Audio Processing**: Stem separation, music transcription, and audio analysis using Python and Demucs
-- **Audio Plugins**: VST plugin development with C++ and JUCE, incorporating genetic algorithms and MIDI processing
-- **Interactive Installations**: EEG/GSR biometric feedback systems for emotion-driven audiovisual experiences (featured at **Ars Electronica 2025**)
-- **Speech Technology**: Automated subtitle generation using Whisper and AssemblyAI
+- **Audio Plugins & VSTs**: VST development with C++ and JUCE, including evolutionary MIDI sequence generation via genetic algorithms
+- **Audio Processing & Analysis**: Stem separation, audio transcription, and spectral analysis using Python, Demucs, and Librosa
+- **Machine Learning & Generative Systems**: GAN-based spectrogram generation (StyleGAN2, PyTorch) for real-time facial acoustic synthesis
+- **Speech & Audio AI**: Automated speech-to-text and subtitle pipelines using Whisper and AssemblyAI
 
-## Creative Technology & Interactive Art :art:
+## Physical Instruments & Embedded Hardware
 
-I build systems that blur the line between technology and artistic expression:
+I actively design and build physical instruments, custom controllers, and embedded systems:
 
-- **Computer Vision**: Real-time gesture recognition, facial acoustics, and movement tracking using MediaPipe, OpenCV, and StyleGAN2
-- **Generative Systems**: GAN-based audio-visual instruments and procedural content generation
-- **Interactive Installations**: TouchDesigner and Max MSP for real-time audiovisual performances
-- **Hardware Integration**: Arduino and ESP8266 for OSC/MIDI controllers and embedded systems
+- **Physical Instruments & Controllers**: Wireless MIDI and OSC controllers built on ESP8266 and Teensy 4.1 microcontrollers
+- **PCB Design & Prototyping**: Circuit design, perfboard layout, and production PCB routing in KiCad with automated toolchains
+- **Interactive Installations & Biometrics**: Real-time emotion detection and biometric feedback systems (EEG, GSR, facial tracking) translating physiological data into audio and visuals, featured at **Ars Electronica 2025**
+- **Computer Vision**: Gesture recognition, facial tracking, and motion analysis with MediaPipe and OpenCV in Max MSP and TouchDesigner
 
-## Full-Stack Development :computer:
+## Technical Fundamentals
 
-Beyond creative work, I maintain strong fundamentals in modern web development:
-
-- **Frontend**: React, TypeScript, D3.js for data visualization, Flutter for cross-platform mobile
-- **Backend**: Node.js, NestJS, Python, FastAPI with PostgreSQL, MongoDB, MariaDB
-- **DevOps**: AWS (Lambda, S3, API Gateway), Docker, Kubernetes, Google Cloud Platform
-- **Testing**: Playwright for E2E, Jest for unit tests, ensuring robust and maintainable code
+- **Languages**: TypeScript, JavaScript, Python, C++, Go, Node.js
+- **Backend & Cloud**: NestJS, FastAPI, Node.js, AWS (Lambda, S3, API Gateway), Docker, Kubernetes, NATS, Argo
+- **Databases & Data**: PostgreSQL, InfluxDB, MongoDB, MariaDB, PySpark
+- **Frontend**: React, Redux, D3.js, Tailwind CSS, Flutter
+- **Testing & Tooling**: Playwright, Jest, pytest, KiCad
 
 ---
-
-Outside of work, I am passionate about **generative art**, **biometric feedback systems**, and **interactive media** — which you can see reflected in many of my personal projects.
-
-## Skills Breakdown
-
-<div class="row">
-{% include about/skills.html title="Web Development" source=site.data.web-dev-skills %}
-{% include about/skills.html title="Infrastructure & DevOps" source=site.data.infrastructure-skills %}
-</div>
-
-<div class="row">
-{% include about/skills.html title="Audio & Music Technology" source=site.data.audio-music-skills %}
-{% include about/skills.html title="Creative Technology" source=site.data.creative-tech-skills %}
-</div>
 
 <div class="row">
 {% include about/timeline.html %}
