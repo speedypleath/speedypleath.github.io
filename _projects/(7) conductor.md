@@ -1,13 +1,15 @@
 ---
 name: Gesture Conductor
 tools: [Python, MediaPipe, OpenCV, Computer Vision]
-image: 
+image: /assets/img/conductor.png
 description: Real-time conducting gesture recognition system that detects hand movements and extracts musical parameters
 ---
 
 # Gesture Conductor
 
 A real-time conducting gesture recognition system that detects hand movements and extracts musical parameters like tempo, articulation, and beat timing using computer vision and MediaPipe.
+
+![Gesture Conductor Preview](/assets/img/conductor.png){:class="img-fluid rounded"}
 
 ## Overview
 
