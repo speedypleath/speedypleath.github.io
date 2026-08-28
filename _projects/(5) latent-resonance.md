@@ -15,7 +15,7 @@ description: A computational instrument that transmutes facial micro-movements i
 
 This project is a generative software system that interprets spatiotemporal data from the human face to navigate a machine-learning model trained on audio spectrograms. By combining **computer vision** with **generative audio synthesis**, it creates a feedback loop where the user performs "silent vocals" that the machine interprets into new, hallucinatory sounds.
 
-**Core Concept:** The system adheres to the constraint of **non-representation**. The user's body is never visualized. Instead, their physical presence is abstracted into the *parameters* of a sound wave—frequency, amplitude, and noise—visualized as a spectrogram and reconstructed into audio in real-time.
+**Core Concept:** The system adheres to the constraint of **non-representation**. The user's body is never visualized. Instead, their physical presence is abstracted into the parameters of a sound wave (frequency, amplitude, and noise), visualized as a spectrogram and reconstructed into audio in real time.
 
 ## System Architecture
 
@@ -44,19 +44,19 @@ The curated spectrogram dataset was used to train a StyleGAN model using transfe
 
 ##### Phase 1: The Nightmare Phase (0–50 kimg)
 
-You will see terrifying, melted faces. Some might have "bassline textures" instead of skin, but you will clearly see eyes or mouths. Audio quality is unusable—static with weird voice-like formants.
+You will see terrifying, melted faces. Some might have "bassline textures" instead of skin, but you will clearly see eyes or mouths. Audio quality is unusable: static with weird voice-like formants.
 
 ![Phase 1](/assets/img/latent-resonance/fakes0_kaggle.jpg){:class="img-fluid rounded"}
 
 ##### Phase 2: The "Structure" Phase (50–200 kimg)
 
-The faces fade away. You start seeing horizontal lines (which are bass notes). Audio becomes "Lo-Fi"—recognizable as a drone or bass, but watery or phasey.
+The faces fade away. You start seeing horizontal lines (which are bass notes). Audio becomes "Lo-Fi", recognizable as a drone or bass, but watery or phasey.
 
 ![Phase 2](/assets/img/latent-resonance/fakes12_kaggle.jpg){:class="img-fluid rounded"}
 
 ##### Phase 3: The "Usable" Phase (200–400 kimg)
 
-The lines become sharp and high-contrast. The background becomes solid black. Audio quality is good—sharp lines produce pure sine waves, blurry lines produce noise.
+The lines become sharp and high-contrast. The background becomes solid black. Audio quality is good: sharp lines produce pure sine waves, blurry lines produce noise.
 
 ![Phase 3](/assets/img/latent-resonance/fakes36_kaggle.jpg){:class="img-fluid rounded"}
 

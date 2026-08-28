@@ -7,24 +7,24 @@ description: The OSC Controller is a wireless interface built on an ESP8266, des
 
 # OSC Controller
 
-A wireless sensor interface built on an ESP8266 (NodeMCU v2) that reads analog inputs through a 16-channel multiplexer and transmits them as OSC messages over UDP — letting physical knobs and sensors control software like Max MSP or TouchDesigner without a cable in sight.
+A wireless sensor interface built on an ESP8266 (NodeMCU v2) that reads analog inputs through a 16-channel multiplexer and transmits them as OSC messages over UDP, letting physical knobs and sensors control software like Max MSP or TouchDesigner without a cable in sight.
 
 ## Overview
 
 The controller reads up to 16 analog sensors through a single ADC pin via a CD74HC4067 multiplexer. Each sensor reading is normalized and dispatched as an OSC message over Wi-Fi, typed by its intended use:
 
-- **Sensor** — raw normalized value for generic mappings
-- **MIDI** — normalized to 0–127 for direct MIDI parameter control
-- **Cutoff** — scaled for filter cutoff frequency ranges
+- **Sensor**: Raw normalized value for generic mappings
+- **MIDI**: Normalized to 0–127 for direct MIDI parameter control
+- **Cutoff**: Scaled for filter cutoff frequency ranges
 
-An I2C LCD displays live sensor values, and Wi-Fi credentials are stored in a JSON config file on the device's LittleFS filesystem — configurable via serial monitor without reflashing.
+An I2C LCD displays live sensor values, and Wi-Fi credentials are stored in a JSON config file on the device LittleFS filesystem, configurable via serial monitor without reflashing.
 
 ## Hardware
 
-- **NodeMCU v2** (ESP8266) — Wi-Fi-enabled microcontroller
-- **CD74HC4067** 16-channel analog multiplexer — expands the single ADC to 16 inputs
-- **16×2 I2C LCD** — live readout of active sensor values
-- Analog sensors wired to multiplexer channels (potentiometers, FSRs, etc.)
+- **NodeMCU v2** (ESP8266): Wi-Fi microcontroller
+- **CD74HC4067** 16-channel analog multiplexer: Expands the single ADC to 16 inputs
+- **16×2 I2C LCD**: Live readout of active sensor values
+- Analog sensors wired to multiplexer channels (potentiometers, FSRs, and photoresistors)
 
 ## Schematic
 
@@ -42,7 +42,7 @@ Three custom libraries handle the separation of concerns:
 
 ## Configuration
 
-Flash a `config.json` to the device's data partition:
+Flash a `config.json` to the device data partition:
 
 ```json
 {
@@ -56,7 +56,7 @@ Flash a `config.json` to the device's data partition:
 }
 ```
 
-Use PlatformIO's `Build Filesystem Image` → `Upload Filesystem Image` tasks to write it. Alternatively, connect over serial and select a network interactively — credentials are saved to flash automatically.
+Use PlatformIO's `Build Filesystem Image` → `Upload Filesystem Image` tasks to write it. Alternatively, connect over serial and select a network interactively; credentials are saved to flash automatically.
 
 ## What It Became
 
