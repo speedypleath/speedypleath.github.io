@@ -1,7 +1,7 @@
 - title: Software Developer, Thales
   from: 2025
   to: Present
-  description: Developing Processing Modules for EGNOS Test Bed. Implemented data integration with advanced field mapping, designed test PMs for ESA demonstrations, and led scenario manager updates for recursive workflows. Cloud-native environment with NATS, Argo, Kubernetes, PostgreSQL, and Grafana.
+  description: Developing Processing Modules for EGNOS Test Bed. Implemented data integration with advanced field mapping, designed test PMs for ESA demonstrations, and led scenario manager updates for recursive workflows. Cloud-native environment with NATS, Argo, Kubernetes, PostgreSQL, InfluxDB, MinIO, Keycloak, and Grafana.
 
 - title: Full-Stack Developer, Verified
   from: 2024
@@ -16,4 +16,4 @@
 - title: Full-Stack Developer, CoreAI
   from: 2021
   to: 2022
-  description: Developed web application for large dataset analysis using React, D3, FastAPI, and MongoDB. Created interactive data visualizations with D3.js and optimized performance with React/Redux conditional rendering.
+  description: Developed web application for large dataset analysis using React, D3, FastAPI, RabbitMQ, Celery, MariaDB, and MongoDB. Created interactive data visualizations with D3.js and optimized performance with React/Redux conditional rendering.

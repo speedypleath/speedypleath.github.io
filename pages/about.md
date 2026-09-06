@@ -39,7 +39,7 @@ I actively design and build physical instruments, custom controllers, and embedd
 
 ## Technical Fundamentals
 
-- **Languages**: TypeScript, JavaScript, Python, C++, Go, Node.js
+- **Languages**: TypeScript, JavaScript, Python, C++, Scala, Node.js
 - **Backend & Cloud**: NestJS, FastAPI, Node.js, AWS (Lambda, S3, API Gateway), Docker, Kubernetes, NATS, Argo
 - **Databases & Data**: PostgreSQL, InfluxDB, MongoDB, MariaDB, PySpark
 - **Frontend**: React, Redux, D3.js, Tailwind CSS, Flutter
