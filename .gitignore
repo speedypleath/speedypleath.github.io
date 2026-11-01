@@ -28,3 +28,6 @@ cv_embeddings.json
 # OpenClaw workspace files
 .openclaw/
 install/
+
+# Brainstorm mockups
+.superpowers/
