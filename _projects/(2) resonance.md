@@ -1,4 +1,5 @@
 ---
+layout: poster
 name: resonance
 tools: [Python, Max MSP, TouchDesigner, Node.js, Machine Learning, EEG, Biometric Sensors, Computer Vision, Generative Art, Interactive Installation]
 image: /assets/img/resonance/mirror-poster.jpg
@@ -26,7 +27,7 @@ description: Resonance is an interactive audiovisual installation that turns inv
   @media(max-width:640px){.r-topline{padding:0 18px}.r-topline span{display:none}.r-hero-copy,.r-thesis,.r-chapter,.r-closing{padding-right:18px;padding-left:18px}.r-hero{grid-template-rows:auto 540px}.r-hero-copy{min-height:560px;padding-top:26px;padding-bottom:24px}.r-hero h1{font-size:clamp(50px,16vw,76px)}.r-hero-lede{grid-template-columns:1fr;gap:12px}.r-thesis{padding-top:64px;padding-bottom:72px}.r-chapter{padding-top:60px;padding-bottom:70px}.r-signal-row{grid-template-columns:90px 1fr}.r-signal-reading{grid-column:1/3;min-height:80px;padding:15px 0;border-top:1px solid var(--line);border-left:0}.r-vad-plot,.r-loop-diagram{min-height:420px;padding:18px}.r-vad-plot svg,.r-loop-diagram svg{min-height:360px}.r-loop-media{min-height:560px}.r-mode-rail{grid-template-columns:repeat(2,1fr)}.r-mode:last-child{grid-column:1/3}.r-audio-module{padding:24px 18px}.r-audio-rule{grid-template-columns:82px 1fr}.r-patch-chain{grid-template-columns:1fr}.r-patch{min-height:92px;border-right:0;border-bottom:1px solid var(--line)}.r-patch:last-child{border-bottom:0}.r-patch:not(:last-child):after{right:50%;top:auto;bottom:-4px;transform:translateX(50%) rotate(135deg)}.r-visual-copy{padding:24px 18px}.r-visual-stack{min-height:420px}.r-installation-grid{grid-template-columns:1fr;grid-template-rows:520px 280px 280px}.r-installation-grid figure:first-child{grid-row:auto}.r-closing{min-height:620px}.r-foot{flex-direction:column;padding-right:18px;padding-left:18px}}
 
   /* Full-bleed case study inside the theme column. */
-  .r-case{position:relative;width:100vw;max-width:100vw;margin-right:calc(50% - 50vw);margin-left:calc(50% - 50vw)}
+  .r-case{position:relative;width:100%;max-width:100%;margin:0}
   .r-case .resonance-page h1,.r-case .resonance-page h2,.r-case .resonance-page h3{padding:0;border:0}
   .r-case .resonance-page blockquote{margin:0;padding:0;background:none;border:0;color:var(--ink);font-style:normal}
   .r-case .resonance-page blockquote em{color:var(--soft)}
